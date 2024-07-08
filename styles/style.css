@@ -1,0 +1,227 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/Banner\ Image.png");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  /* padding: 0 20px; */
+  margin: 50px;
+  border-radius: 10px;
+  opacity: 5px;
+}
+.banner-content {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 70px;
+}
+.parcentage {
+  display: flex;
+  justify-content: center;
+  color: red;
+  font-size: larger;
+}
+.p1 {
+  display: flex;
+  justify-content: center;
+  color: red;
+  margin-top: 30px;
+}
+.h2 {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: larger;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  margin-top: 20px;
+}
+.banner-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/Vectorrr.png");
+  height: 100vh;
+  background-size: cover;
+  margin: 50px;
+  background-position: center;
+  border-radius: 10px;
+}
+.banner-content-text {
+  color: white;
+  font-size: large;
+}
+.document {
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background: linear-gradient(
+    rgba(220, 166, 166, 0.5),
+    rgba(237, 231, 231, 0.5)
+  );
+  height: 70vh;
+  background-size: cover;
+  margin: 50px;
+  background-position: center;
+  border-radius: 10px;
+}
+.text-document {
+  align-items: center;
+  padding-top: 100px;
+}
+span {
+  color: red;
+}
+.h3 {
+  padding-left: 23px;
+}
+.h6 {
+  padding-left: 60px;
+}
+.join-btn {
+  padding: 8px;
+  margin-left: 120px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+.comming {
+  justify-content: space-around;
+  display: flex;
+  background-repeat: no-repeat;
+  height: 50vh;
+  background-size: cover;
+  margin: 50px;
+  background-position: center;
+  border-radius: 10px;
+}
+.comming-left {
+  margin-top: 100px;
+}
+.comming-right {
+  margin-top: 50px;
+}
+.holiday {
+  height: 100vh;
+  background-size: cover;
+  margin: 50px;
+  background-position: center;
+  border-radius: 10px;
+}
+.holiday-image {
+  width: 100%;
+  margin-top: 215px;
+}
+.holiday-75 {
+  position: absolute;
+  width: 35%;
+}
+.holiday-44 {
+  position: absolute;
+  width: 15%;
+  margin-left: 800px;
+}
+.holiday-text {
+  text-align: center;
+}
+.portfolio {
+  height: 100vh;
+  background-size: cover;
+  margin: 100px;
+  background-position: center;
+  border-radius: 10px;
+}
+.image-3 {
+  width: 20%;
+  margin-top: 30px;
+}
+.image-4 {
+  width: 20%;
+}
+.image-5 {
+  width: 20%;
+}
+.image-6 {
+  width: 20%;
+}
+.image-7 {
+  width: 20%;
+}
+.image-8 {
+  width: 20%;
+}
+.subscribe {
+  background-color: #f0dddd;
+  height: 80vh;
+  background-size: cover;
+  margin: 100px;
+  background-position: center;
+  border-radius: 10px;
+}
+.group-61 {
+  margin-left: 450px;
+  margin-top: 60px;
+  width: 10%;
+}
+.subscribe-text {
+  margin-left: 350px;
+  margin-top: 20px;
+}
+button {
+  padding: 10px;
+  margin-left: 470px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin-top: 12px;
+}
+.unsubscribe {
+  background-color: #070211;
+  height: 80vh;
+  background-size: cover;
+  margin: 50px;
+  background-position: center;
+  border-radius: 10px;
+}
+.unsubscribe-text {
+  display: flex;
+  justify-content: space-between;
+  color: wheat;
+  padding: 40px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+.short-hr {
+  width: 78%; /* Set the width to 50% */
+  margin: 0 auto; /* Center the HR */
+  border: 1px solid #aa7878;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 23px;
+}
+.end-text {
+  display: flex;
+  justify-content: space-between;
+  color: wheat;
+  padding: 40px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
