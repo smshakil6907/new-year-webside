@@ -3,6 +3,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
+.all-text-color {
+  color: #6a6770;
+}
 .banner {
   display: flex;
   justify-content: center;
@@ -111,6 +114,18 @@ span {
 .comming-left {
   margin-top: 100px;
 }
+.circle {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 10px solid red;
+  margin-right: 40px;
+}
+.circle img {
+  width: 85%;
+  margin-top: 22px;
+  margin-left: 22px;
+}
 .comming-right {
   margin-top: 50px;
 }
@@ -139,10 +154,12 @@ span {
 }
 .portfolio {
   height: 100vh;
+  /* width: 1100px; */
   background-size: cover;
   margin: 100px;
   background-position: center;
   border-radius: 10px;
+  /* margin-left: 300px; */
 }
 .image-3 {
   width: 20%;
